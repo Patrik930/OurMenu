@@ -1,0 +1,20 @@
+.container{
+  min-height:  100vh;
+  padding: 0!important;
+} 
+.sticky{
+  position: sticky;
+  top: 0;
+}
+.categ{
+  cursor: pointer;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: "Proxima Nova", system-ui, ui-sans-serif;
+  }
+}
